@@ -1,5 +1,6 @@
 import Sidebar from "../../components/sidebar/Sidebar";
 import Widget from "../../components/widget/Widget";
+import Featured from "../../components/featured/Featured";
 import "./home.scss";
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
           <Widget type="earning" />
           <Widget type="balance" />
         </div>
+        <Featured />
       </div>
     </div>
   );
